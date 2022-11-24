@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/shared/ui-ui/src",
+  "prefix": "ui",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/shared/ui-ui"],
+      "options": {
+        "jestConfig": "libs/shared/ui-ui/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/shared/ui-ui/**/*.ts",
+          "libs/shared/ui-ui/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": ["domain:shared", "type:ui"]
+}

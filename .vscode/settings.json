@@ -1,3 +1,57 @@
 {
-  "eslint.validate": ["json"]
+  "eslint.validate": [
+    "json"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "apps/luggage/tsconfig.spec.json": true,
+    "apps/luggage/.browserslistrc": true,
+    "apps/luggage/.eslintrc.json": true,
+    "apps/luggage/jest.config.ts": true,
+    "apps/luggage/tsconfig.editor.json": true,
+    "apps/luggage/tsconfig.json": true,
+    "libs/luggage/domain/jest.config.ts": true,
+    "libs/luggage/domain/.eslintrc.json": true,
+    "libs/luggage/domain/README.md": true,
+    "libs/luggage/domain/tsconfig.json": true,
+    "libs/luggage/domain/tsconfig.lib.json": true,
+    "libs/luggage/domain/tsconfig.spec.json": true,
+    "libs/luggage/domain/src/test-setup.ts": true,
+    "libs/luggage/domain/project.json": true,
+    "libs/luggage/feature-checkin/jest.config.ts": true,
+    "libs/luggage/feature-checkin/.eslintrc.json": true,
+    "libs/luggage/feature-checkin/project.json": true,
+    "libs/luggage/feature-checkin/README.md": true,
+    "libs/luggage/feature-checkin/tsconfig.json": true,
+    "libs/luggage/feature-checkin/tsconfig.lib.json": true,
+    "libs/luggage/feature-checkin/tsconfig.spec.json": true
+  },
+  "hide-files.files": [
+    "apps/luggage/tsconfig.spec.json",
+    "apps/luggage/.browserslistrc",
+    "apps/luggage/.eslintrc.json",
+    "apps/luggage/jest.config.ts",
+    "apps/luggage/tsconfig.editor.json",
+    "apps/luggage/tsconfig.json",
+    "libs/luggage/domain/jest.config.ts",
+    "libs/luggage/domain/.eslintrc.json",
+    "libs/luggage/domain/README.md",
+    "libs/luggage/domain/tsconfig.json",
+    "libs/luggage/domain/tsconfig.lib.json",
+    "libs/luggage/domain/tsconfig.spec.json",
+    "libs/luggage/domain/src/test-setup.ts",
+    "libs/luggage/domain/project.json",
+    "libs/luggage/feature-checkin/jest.config.ts",
+    "libs/luggage/feature-checkin/.eslintrc.json",
+    "libs/luggage/feature-checkin/project.json",
+    "libs/luggage/feature-checkin/README.md",
+    "libs/luggage/feature-checkin/tsconfig.json",
+    "libs/luggage/feature-checkin/tsconfig.lib.json",
+    "libs/luggage/feature-checkin/tsconfig.spec.json"
+  ]
 }

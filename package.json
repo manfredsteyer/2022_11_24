@@ -50,7 +50,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-architects/ddd": "2.1.2",
+    "@angular-architects/ddd": "^2.1.2",
     "@angular-architects/module-federation": "14.3.8",
     "@angular-devkit/build-angular": "14.0.2",
     "@angular-eslint/eslint-plugin": "13.2.1",

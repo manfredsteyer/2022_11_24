@@ -19,3 +19,47 @@
   <!-- <custom-checkbox [value]="expertMode" (changed)="changed($event)" label="Expert Mode"></custom-checkbox>  
   {{expertMode}} -->
 </div>
+
+<hr>
+Active: {{tab.active}}<br>
+<a (click)="tab.next()">Next Tab</a>
+<hr>
+
+<ui-tabbed-pane #tab>
+
+  <!-- <app-bad-child></app-bad-child> -->
+
+  <ui-tab title="First Tab" #tab>
+    <div class="main">
+      Lorem <b>ipsum</b> dolor sit amet consectetur adipisicing elit. Reiciendis dolor, ad similique tempora quidem
+      perferendis atque <a (click)="tab.next()">saepe</a>? Id odio expedita autem eos sed. Placeat porro iure odio ipsam cupiditate voluptas.
+    </div>
+    <div class="smallprint">
+      Zu Risiken und Nebenwirkungen ...
+    </div>
+  </ui-tab>
+
+  <ui-tab title="Second Tab">
+    <div class="main">
+      Dolor sit amet consectetur adipisicing elit. Reiciendis dolor, ad similique tempora quidem perferendis atque
+      saepe? Id odio expedita autem eos sed. Placeat porro iure odio ipsam cupiditate voluptas.
+    </div>
+    <div class="smallprint">
+      Zu Risiken und Nebenwirkungen ...
+    </div>
+  </ui-tab>
+
+
+  <div class="danger-zone">
+    <ui-tab title="Third Tab">
+      <div class="main">
+        Sit amet consectetur adipisicing elit. Reiciendis dolor, ad similique tempora quidem perferendis atque saepe? Id
+        odio expedita autem eos sed. Placeat porro iure odio ipsam cupiditate voluptas.
+      </div>
+      <div class="smallprint">
+        Zu Risiken und Nebenwirkungen ...
+      </div>
+    </ui-tab>
+  </div>
+
+</ui-tabbed-pane>

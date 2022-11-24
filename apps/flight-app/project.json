@@ -93,7 +93,6 @@
         "passWithNoTests": true
       }
     },
-
     "demo-executor": {
       "executor": "@flight-workspace/my-plugin:build",
       "options": {
